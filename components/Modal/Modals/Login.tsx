@@ -1,17 +1,12 @@
 import {
-  Stack,
-  Text,
-  Input,
-  Button,
-  Link,
-  useToast,
-  useMediaQuery,
+  Button, Input, Link, Stack,
+  Text, useMediaQuery, useToast
 } from '@chakra-ui/react';
-import { useState, useRef } from 'react';
+import { useRef, useState } from 'react';
 import useStore from '../../../store';
 import {
   loginWithEmailAndPassword,
-  sendPasswordReset,
+  sendPasswordReset
 } from '../../../utils/firebase/collections/user';
 import Modal from '../Modal';
 
